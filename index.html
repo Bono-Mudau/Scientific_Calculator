@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="functionality.js" defer></script>
+    <title>Calcultor</title>
+
+</head>
+
+<body>
+    <div id="header"> 
+
+    </div>
+    <div id="mainframe">
+
+        <div id="display_frame">
+         <input id="input" type="text" readonly>
+         <input id="display" type="text" readonly>
+         <!-- <label id="display">Ans</label> -->
+
+        </div>
+
+        <div id="buttons_frame">
+            <button type="button" onclick="update_expression ('1')">1</button>
+            <button type="button" onclick="update_expression ('2')">2</button>
+            <button type="button" onclick="update_expression ('3')">3</button>
+            <button id="power" type="button" onclick="power()">OFF</button>
+            <button type="button" onclick="update_expression ('4')">4</button>
+            <button type="button" onclick="update_expression ('5')">5</button>
+            <button type="button" onclick="update_expression ('6')">6</button>
+            <button id="x" type="button" onclick="x()"> x</button>
+            <button type="button" onclick="update_expression ('7')">7</button>
+            <button type="button" onclick="update_expression ('8')">8</button>
+            <button type="button" onclick="update_expression ('9')">9</button>
+            <button type="button" onclick="update_expression ('0')">0</button>
+             <button type="button" onclick="update_expression ('+')">+</button>
+            <button type="button" onclick="update_expression ('-')">-</button>
+             <button type="button" onclick="update_expression ('*')">*</button>
+            <button type="button" onclick="update_expression ('/')">/</button>
+            <button type="button" onclick="update_expression ('sin(')">sin</button>
+            <button type="button" onclick="update_expression ('cos(')">cos</button>
+            <button type="button" onclick="update_expression ('tan(')">tan</button>
+            <button type="button" onclick="update_expression ('log(')">log</button>
+            <button type="button" onclick="update_expression ('ln(')">ln</button>
+            <button onclick="update_expression('π')">π</button>
+            <button type="button" onclick="update_expression ('!')">!</button>
+            <button type="button" onclick="update_expression ('.')">.</button>
+            <button type="button" onclick="update_expression ('(')">(</button>
+            <button type="button" onclick="update_expression (')')">)</button>
+            <button type="button" onclick="clear_()"> AC</button>
+            <button id="eval" type="button" onclick="evaluate_exp()"> =</button>
+        </div>
+    
+    </div>
+
+    
+   
+</body>
