@@ -17,6 +17,6 @@ Supports arithmetic, trigonometric, logarithmic, and factorial operations with a
 ## Technologies Used
 
 * HTML5
-* CSS3
+* CSS
 * JavaScript 
 * DOM manipulation
