@@ -19,6 +19,14 @@
     height: 70%;
     width: 98%;
 }
+#trig_frame{
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: grey;
+    height: 70%;
+    width: 98%;
+}
 #display_frame{
     height: 30%;
     width: 100%;
@@ -46,6 +54,13 @@
 
     border-radius: 5px;
 }
+#trig_frame button{
+
+    border-radius: 5px;
+}
+#changepanel{
+    background-color:grey ;
+}
 #power{
     border-radius: 15px;
     font-style: normal;
@@ -62,9 +77,20 @@
     height: 60px;
     background-color: aquamarine;
     border-radius: 5px;
+    text-align: center;
+
 
 }
 body{
     padding: 5px;
     background-color: cadetblue;
+}
+#name{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 300;
+    margin: auto;
+    background-color: rgba(69, 119, 165, 0.671);
+    
 }
